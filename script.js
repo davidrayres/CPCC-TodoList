@@ -42,7 +42,7 @@ toDoArray.forEach((value, index) => {
     <span class="id">${index + 1}. </span>
     <div>
       <p>${value.who}: ${value.what}</p>
-      <p>Created: ${value.date}, ${value.time}</p>
+      <p>Due: ${value.date}, ${value.time}</p>
     </div>
     `
 
