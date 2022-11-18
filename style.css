@@ -1,40 +1,44 @@
 * {
   padding: 0px;
   margin: 0px;
+  /* border: 1px solid orange */
 }
 
 body {
-  margin: 4rem;
+  font-family: calibri;
+  margin: 2rem 10rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
 }
 
 .flex-col {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
-}
+}  
 
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-input:not([type='submit']) {
+input {
   height: 20px;
   padding: 0.25rem 0.5rem;
   border: 1px solid black;
   border-radius: 0.25rem;
 }
 
-input[type='submit'],
 button {
   border-radius: 0.25rem;
   height: 100%;
+  padding: 0 .5rem;
 }
 
-h1,
+h1 {margin-bottom: 2rem;}
 h3 {
-  margin-top: 1rem;
+  margin:2rem 0;
 }
 
 ul {
@@ -46,9 +50,16 @@ li {
   margin-top: 0.5rem;
   font-size: 1rem;
   font-weight: normal;
-  margin-left: 1rem;
+  border: 1px solid gray;
+  padding: .5rem;
+  border-radius: .25rem;
 }
 
 span {
-  margin-left: 0.5rem;
+  margin: 0 0.5rem;
 }
+
+.flex-1 {
+  flex-grow: 1;
+}
+
