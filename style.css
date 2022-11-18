@@ -1,0 +1,54 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 4rem;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+input:not([type='submit']) {
+  height: 20px;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
+
+input[type='submit'],
+button {
+  border-radius: 0.25rem;
+  height: 100%;
+}
+
+h1,
+h3 {
+  margin-top: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-left: 1rem;
+}
+
+span {
+  margin-left: 0.5rem;
+}

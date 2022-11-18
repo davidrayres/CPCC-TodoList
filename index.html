@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To Do List</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="flex-row">
+      <div class="flex-col">
+        <label for="who">Who</label>
+        <input class="add" type="text" name="who" id="who" required>
+      </div>
+
+      <div class="flex-col">
+        <label for="what">What</label>
+        <input class="add" type="text" name="what" id="what" required>
+      </div>
+
+      <div class="flex-col">
+        <label for="what">Time</label>
+        <input class="" type="time" name="time" id="time" required>
+      </div>
+
+      <div class="flex-col">
+        <label for="what">Date</label>
+        <input class="" type="date" name="date" id="date" required>
+      </div>  
+
+      <div class="flex-col">
+      <label for="add">&nbsp;</label>
+        <button onclick="addToDo(this)">Add To Do</button>
+      </div>
+
+    </div>
+
+    <h1>To Do & Done Lists</h1>
+
+    <h3>To Do:</div>
+    <ul id="ToDoUl">
+      <li>
+        <input type="checkbox" onclick="toggleToDo(this)"/><span>David: Do Something / By: 12:00pm on 12/01/22</span>
+      </li>
+    </ul>
+
+    <h3>Done:</div>
+    <ul id="DoneUl"></ul>
+  </body>
+</html>
